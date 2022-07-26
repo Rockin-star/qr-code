@@ -13,6 +13,10 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
   background-color: hsl(220, 15%, 55%);
   font-size: 15px;
   font-family: 'Outfit', sans-serif;
@@ -27,8 +31,8 @@ body {
   margin-right: auto;
   margin-top: 20px;
   border-radius: 10px;
-  width: 90%;
-  height: 300px;
+  width: 200px;
+  height: 100%;
 }
 
 .bold {
@@ -38,6 +42,9 @@ body {
   color: hsl(212, 45%, 89%);
 }
 .container {
+  display: flex; 
+  flex-direction: column;
+  
   min-width: 375px;
   max-width: 1440px;
   left: 450px;
