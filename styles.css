@@ -1,0 +1,51 @@
+.attribution {
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 550px;
+  margin: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: None;
+}
+
+body {
+  background-color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  min-width: 375px;
+  max-width: 1440px;
+}
+
+.qrcode {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 90%;
+  height: 250px;
+}
+
+.bold {
+  font-weight: 700;
+}
+.light{
+  color: hsl(212, 45%, 89%);
+}
+.container {
+  min-width: 375px;
+  max-width: 1440px;
+  left: 450px;
+  top: 50px;
+  position: absolute;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: white;
+}
